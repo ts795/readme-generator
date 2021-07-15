@@ -55,6 +55,12 @@ inquirer
     let fileContents = `# ${response.title}\n\n`;
     fileContents += `## Description\n\n${response.description}\n\n`;
     fileContents += `## Table of Contents\n\n`;
+    fileContents += "* [Installation](#installation)\n";
+    fileContents += "* [Usage](#usage)\n";
+    fileContents += "* [License](#license)\n";
+    fileContents += "* [Contributing](#contributing)\n";
+    fileContents += "* [Tests](#tests)\n";
+    fileContents += "* [Questions](#questions)\n";
     fileContents += `## Installation\n${response.installation_instructions}\n\n`;
     fileContents += `## Usage\n\n${response.usage_information}\n\n`;
     fileContents += `## License\n\n`;

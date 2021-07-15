@@ -6,6 +6,12 @@ This project asks the user questions for filling in a README
 
 ## Table of Contents
 
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
 ## Installation
 Node and npm must be installed. Type npm install to install dependencies
 
