@@ -72,6 +72,8 @@ inquirer
     fileContents += `## Contributing\n\n${response.contribution_guidelines}\n\n`;
     fileContents += `## Tests\n\n${response.test_instructions}\n\n`;
     fileContents += `## Questions\n\n`;
+    fileContents += `- [Link to Github](https://github.com/${response.github_username})\n`;
+    fileContents += `- Email: ${response.email}\n`;
     fs.writeFile("README.md", fileContents, (err) =>
         err ? console.error(err) : console.log('Success!')
 );

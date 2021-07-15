@@ -35,3 +35,5 @@ Answer the prompts and open the README to see that the information has been adde
 
 ## Questions
 
+- [Link to Github](https://github.com/ts795)
+- Email: sam.l.full.stack@gmail.com
