@@ -53,6 +53,11 @@ inquirer
   ])
   .then((response) => {
     let fileContents = `# ${response.title}\n\n`;
+    if (response.license === "MIT License") {
+        fileContents += "![mit](https://img.shields.io/badge/license-MIT-blue)\n\n";
+    } else {
+        fileContents += "![gnu_gpl_v3](https://img.shields.io/badge/license-GNU%20GPLv3-blue)\n\n";
+    }
     fileContents += `## Description\n\n${response.description}\n\n`;
     fileContents += `## Table of Contents\n\n`;
     fileContents += "* [Installation](#installation)\n";
@@ -63,7 +68,7 @@ inquirer
     fileContents += "* [Questions](#questions)\n";
     fileContents += `## Installation\n${response.installation_instructions}\n\n`;
     fileContents += `## Usage\n\n${response.usage_information}\n\n`;
-    fileContents += `## License\n\n`;
+    fileContents += `## License\n\n${response.license}\n\n`;
     fileContents += `## Contributing\n\n${response.contribution_guidelines}\n\n`;
     fileContents += `## Tests\n\n${response.test_instructions}\n\n`;
     fileContents += `## Questions\n\n`;

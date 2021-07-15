@@ -1,5 +1,7 @@
 # Readme Generator
 
+![mit](https://img.shields.io/badge/license-MIT-blue)
+
 ## Description
 
 This project asks the user questions for filling in a README
@@ -20,6 +22,8 @@ Node and npm must be installed. Type npm install to install dependencies
 Type node index.js
 
 ## License
+
+MIT License
 
 ## Contributing
 
