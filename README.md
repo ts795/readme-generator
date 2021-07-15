@@ -4,7 +4,7 @@
 
 ## Description
 
-This project asks the user questions for filling in a README
+This project asks the user questions for filling in a README. It uses the inquirer package to prompt the user for input. A screencast recording can be found here that demonstrates the script. [Link to Screencast](https://drive.google.com/file/d/1-bMK7M8oCNJJAImqFWta_-n8ZMsFDP2X/view)
 
 ## Table of Contents
 
